@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+
+}
+
+.jumbotron-hero {
+	font-family: 'Open Sans';
+	background: url("https://zapodaj.net/images/b027404e9554e.png");
+	background-position: 60% 0;
+	background-size: cover;
+	height: 100vh;
+}
+
+.logo {
+	font-family: 'Barrio';
+	color: #fff;
+
+}
+
+.slogan {
+	color: #fff;
+	max-width: 500px;
+}
+
+.slogan h1 {
+	font-weight: 300;
+	margin-top: 40vh;
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+.phone img {
+	position: absolute;
+	top: 200px;
+	right: 10vw;
+	height: 90vh;
+}
+
+.mouse {
+	position: absolute;
+	left: 50%;
+	width: 20px;
+	height: 30px;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	bottom: 10px;
+}
+
+.main {
+	padding: 40px 0;
+	color: #959595;
+}
+
+.main h1 {
+	color: #000;
+	margin-bottom: 40px;
+}
+
+.main .col-md-6:nth-child(2) {
+	margin-top: 150px;
+}
+
+.col-md-3 {
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7 {
+	color: #fff;
+	padding-left: 40px;
+	margin: 0;
+	height: 300px;
+	transition: .3s;
+}
+
+[class^="box"]:hover{
+	filter: grayscale(60%);
+}
+
+[class^="box"]:hover h3{
+	text-decoration: underline;
+}
+
+.box1 {
+	background-color: #F5989D;
+}
+
+.box2 {
+	background-color: #615F7D;
+}
+
+.box3 {
+	background: url('https://zapodaj.net/images/aaef25c2ffb08.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.box4 {
+	background-color: #BD8CBF;
+}
+
+.box5 {
+	background: url('https://zapodaj.net/images/aaef25c2ffb08.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.box6 {
+	background-color: #BD8CBF;
+}
+
+.box7 {
+	background-color: #615F7D;
+}
+
+.gallery h3 {
+	line-height: 60px;
+}
+
+.gallery a {
+	text-decoration: none;
+	color: #fff;
+	line-height: 40px;
+}
+
+.gallery a i{
+	position: relative;
+	left: 5px;
+	transition: .3s;
+}
+
+.gallery a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.gallery a:hover i{
+	left: 25px;
+}
+
+
+.info {
+	padding: 50px;
+	text-align: justify;
+}
+
+.info h1 {
+	padding-bottom: 40px;
+}
+
+.info p {
+	color: #959595;
+}
+
+.info h4 {
+	font-weight: 700;
+	color: #959595;
+}
+
+.jumbotron-car {
+	background: url('https://zapodaj.net/images/7ca7ac5843b55.png');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.slogan2 {
+	color: #fff;
+	margin-left: 5vh;
+	padding-top: 60vh;
+}
+
+.slogan2 p {
+	margin-top: 10px;
+}
+
+.slogan2 h1 {
+	font-family: 'Open Sans';
+	color: #fff;
+	font-weight: 300;
+	font-size: 30px;
+}
+
+footer {
+	background-color: #182432;
+	padding: 80px 0;
+	color: #B4B4B4;
+	line-height: 2em;
+	font-size: 0.8em;
+	text-align: center;
+}
